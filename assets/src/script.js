@@ -128,12 +128,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (selectedIndex === currentQuestion.answer) {
       feedback.textContent = "Correct!";
-      const soundEffect1 = document.getElementById("sound");
-      soundEffect1.play();
+      //const soundEffect1 = document.getElementById("sound");
+      //soundEffect1.play();
     } else {
       feedback.textContent = "Wrong!";
-      const soundEffect2 = document.getElementById("sound-effect-2");
-      soundEffect2.play();
+      //const soundEffect2 = document.getElementById("sound-effect-2");
+      //soundEffect2.play();
       timeLeft -= 10;
     }
 
